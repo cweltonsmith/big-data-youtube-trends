@@ -35,15 +35,21 @@ Dataset available at: https://cweltonsmith.github.io/big-data-youtube-trends/
     
     Chase Smith:
     1ZAPwfrtAFY	17.14.11	The Trump Presidency: Last Week Tonight with John Oliver (HBO)	LastWeekTonight	24	2017-11-13T07:30:00.000Z	last week tonight trump presidency|"last week tonight donald trump"|"john oliver trump"|"donald trump"	2418783	97185	6146	12703	https://i.ytimg.com/vi/1ZAPwfrtAFY/default.jpg	FALSE	FALSE	FALSE	One year after the presidential election, John Oliver discusses what we've learned so far and enlists our catheter cowboy to teach Donald Trump what he hasn't.\n\nConnect with Last Week Tonight online...\n\nSubscribe to the Last Week Tonight YouTube channel for more almost news as it almost happens: www.youtube.com/user/LastWeekTonight\n\nFind Last Week Tonight on Facebook like your mom would: http://Facebook.com/LastWeekTonight\n\nFollow us on Twitter for news about jokes and jokes about news: http://Twitter.com/LastWeekTonight\n\nVisit our official site for all that other stuff at once: http://www.hbo.com/lastweektonight
+    
+    Kaleb Odle:
+    XpVt6Z1Gjjo 1 YEAR OF VLOGGING -- HOW LOGAN PAUL CHANGED YOUTUBE FOREVER! Logan Paul Vlogs  24  logan paul vlog|logan paul|logan|paul|olympics|logan paul youtube|vlog|daily|comedy|hollywood|parrot|maverick|bird|maverick clothes|diamond play button|logan paul diamond play button|10M subscribers|logan paul 1 year vlogging|1 year vlog|dwarf mamba play button|logan paul history|youtube history|10M|10M plaque|youtube button|diamond button|logang|logang 4 life  5854127 361422  22023 54671 https://i.ytimg.com/vi/XpVt6Z1Gjjo/default.jpg  15.09
 
 
-  #### Mapper Output/ Reducer Output:
+  #### Mapper Output/ Reducer Input:
 
     Kevin Hart:
     CaseyNeistat   748374.0
     
     Chase Smith:
     LastWeekTonight   6146.0
+    
+    Kaleb Odle:
+    Logan Paul Vlogs  54671
 
   #### Reducer Output:
 
@@ -52,6 +58,10 @@ Dataset available at: https://cweltonsmith.github.io/big-data-youtube-trends/
     
     Chase Smith:
     LastWeekTonight   (31234.0)
+    
+    Kaleb Odle:
+    Logan Paul Vlogs  54671
+    (Note: due to mine not being a ongoing calculation, but rather replacing a value if it is larger, this output will not always remain unchanged from the reducer input. If a video from the same channel has less comments it will simply not show in the output)
 
   #### Language:
 
@@ -59,6 +69,9 @@ Dataset available at: https://cweltonsmith.github.io/big-data-youtube-trends/
     I will be using Python for MapReduce.
     
     Chase Smith:
+    I will be using Python for MapReduce.
+    
+    Kaleb Odle:
     I will be using Python for MapReduce.
 
   #### Charts: 
@@ -68,3 +81,6 @@ Dataset available at: https://cweltonsmith.github.io/big-data-youtube-trends/
     
     Chase Smith:
     I will make a pie chart for the top 10 trending videos with the most dislikes.
+    
+    Kaleb Odle:
+    I will make a column chart showing the top 10 most commented videos and their corresponding channel.
