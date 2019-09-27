@@ -32,4 +32,4 @@ Dataset available at: https://www.kaggle.com/datasnaek/youtube-new
   #### Mapper Output/ Reducer Output:
   #### Reducer Output:
   #### Language: We will be using Python for MapReduce implementation.
-  #### Charts:
+  #### Charts: We will most likely be using column charts for the visualizations. If there is much variance between values, then a boxplot might be used as well or instead.
