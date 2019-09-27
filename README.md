@@ -38,7 +38,8 @@ Dataset available at: https://cweltonsmith.github.io/big-data-youtube-trends/
     
     Kaleb Odle:
     XpVt6Z1Gjjo 1 YEAR OF VLOGGING -- HOW LOGAN PAUL CHANGED YOUTUBE FOREVER! Logan Paul Vlogs  24  logan paul vlog|logan paul|logan|paul|olympics|logan paul youtube|vlog|daily|comedy|hollywood|parrot|maverick|bird|maverick clothes|diamond play button|logan paul diamond play button|10M subscribers|logan paul 1 year vlogging|1 year vlog|dwarf mamba play button|logan paul history|youtube history|10M|10M plaque|youtube button|diamond button|logang|logang 4 life  5854127 361422  22023 54671 https://i.ytimg.com/vi/XpVt6Z1Gjjo/default.jpg  15.09
-
+    
+    Jacob Taylor:
 
   #### Mapper Output/ Reducer Input:
 
@@ -50,6 +51,9 @@ Dataset available at: https://cweltonsmith.github.io/big-data-youtube-trends/
     
     Kaleb Odle:
     Logan Paul Vlogs  54671
+    
+    Jacob Taylor:
+    
 
   #### Reducer Output:
 
@@ -62,6 +66,8 @@ Dataset available at: https://cweltonsmith.github.io/big-data-youtube-trends/
     Kaleb Odle:
     Logan Paul Vlogs  54671
     (Note: due to mine not being a ongoing calculation, but rather replacing a value if it is larger, this output will not always remain unchanged from the reducer input. If a video from the same channel has less comments it will simply not show in the output)
+    
+    Jacob Taylor:
 
   #### Language:
 
@@ -73,6 +79,8 @@ Dataset available at: https://cweltonsmith.github.io/big-data-youtube-trends/
     
     Kaleb Odle:
     I will be using Python for MapReduce.
+    
+    Jacob Taylor:
 
   #### Charts: 
   
@@ -84,3 +92,5 @@ Dataset available at: https://cweltonsmith.github.io/big-data-youtube-trends/
     
     Kaleb Odle:
     I will make a column chart showing the top 10 most commented videos and their corresponding channel.
+    
+    Jacob Taylor:
