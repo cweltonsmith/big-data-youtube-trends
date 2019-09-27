@@ -25,7 +25,7 @@ Dataset available at: https://www.kaggle.com/datasnaek/youtube-new
   #### Kevin: For each channel in the US find the total number of views.
   #### Chase: For each channel in the US find the total number of dislikes.
   #### Jacob:
-  #### Kaleb: 
+  #### Kaleb: For each channel in the US find the max number of comments.
 
 ## Big Data Solutions
   #### Mapper Input:
