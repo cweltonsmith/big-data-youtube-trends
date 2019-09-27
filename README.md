@@ -40,10 +40,10 @@ Dataset available at: https://www.kaggle.com/datasnaek/youtube-new
   #### Mapper Output/ Reducer Output:
 
     Kevin Hart:
-    CaseyNeistat   748374
+    CaseyNeistat   748374.0
     
     Chase Smith:
-    LastWeekTonight   6146
+    LastWeekTonight   6146.0
 
   #### Reducer Output:
 
@@ -51,7 +51,7 @@ Dataset available at: https://www.kaggle.com/datasnaek/youtube-new
     CaseyNeistat    232745266.0
     
     Chase Smith:
-    LastWeekTonight   (Number Here)
+    LastWeekTonight   (31234.0)
 
   #### Language: We will be using Python for MapReduce implementation.
 
