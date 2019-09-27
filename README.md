@@ -48,7 +48,7 @@ Dataset available at: https://www.kaggle.com/datasnaek/youtube-new
   #### Reducer Output:
 
     Kevin Hart:
-    CaseyNeistat    (Larger Number here)
+    CaseyNeistat    232745266.0
     
     Chase Smith:
     LastWeekTonight   (Number Here)
