@@ -37,7 +37,7 @@ Dataset available at: https://cweltonsmith.github.io/big-data-youtube-trends/
     1ZAPwfrtAFY	17.14.11	The Trump Presidency: Last Week Tonight with John Oliver (HBO)	LastWeekTonight	24	2017-11-13T07:30:00.000Z	last week tonight trump presidency|"last week tonight donald trump"|"john oliver trump"|"donald trump"	2418783	97185	6146	12703	https://i.ytimg.com/vi/1ZAPwfrtAFY/default.jpg	FALSE	FALSE	FALSE	One year after the presidential election, John Oliver discusses what we've learned so far and enlists our catheter cowboy to teach Donald Trump what he hasn't.\n\nConnect with Last Week Tonight online...\n\nSubscribe to the Last Week Tonight YouTube channel for more almost news as it almost happens: www.youtube.com/user/LastWeekTonight\n\nFind Last Week Tonight on Facebook like your mom would: http://Facebook.com/LastWeekTonight\n\nFollow us on Twitter for news about jokes and jokes about news: http://Twitter.com/LastWeekTonight\n\nVisit our official site for all that other stuff at once: http://www.hbo.com/lastweektonight
 
 
-  #### Mapper Output/ Reducer Output:
+  #### Mapper Output/ Reducer Input:
 
     Kevin Hart:
     CaseyNeistat   748374.0
