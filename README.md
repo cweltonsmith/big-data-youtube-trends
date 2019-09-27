@@ -4,6 +4,7 @@
 #### Pair 2: Jacob Taylor, Kaleb Odle
 
 ## Links
+Dataset available at: https://www.kaggle.com/datasnaek/youtube-new
 
 ## Introduction
 
