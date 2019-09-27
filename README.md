@@ -4,7 +4,7 @@
 #### Pair 2: Jacob Taylor, Kaleb Odle
 
 ## Links
-Dataset available at: https://www.kaggle.com/datasnaek/youtube-new
+Dataset available at: https://cweltonsmith.github.io/big-data-youtube-trends/
 
 ## Introduction
 #### Youtube is the most widely known and popular video sharing service on the internet. This means there is a plethora of data available to pull from it. This project will deal with finding various "big data elements" (such as count or maximum) from Excel sheet(s) of pulled Youtube data.
@@ -16,9 +16,9 @@ Dataset available at: https://www.kaggle.com/datasnaek/youtube-new
 
 ## The Challenge
   #### Volume: There are over 40,000 rows with 16 columns for each row making a total of ~640,000 records.
-  #### Variety: The data is in a structued excel spreadsheet. 
-  #### Velocity: The data is at rest. 
-  #### Veracity: The data was gathered from the YouTube API so the statictics will be trustworthy.
+  #### Variety: The data is in a structued excel spreadsheet. Since the data is gathered from youtube, the only think that might be different is the video itself and the rest is constrained.
+  #### Velocity: The data is at rest. Trending videos change everyday depending on what is trending right now.
+  #### Veracity: The data is clean and was gathered from the YouTube API so the statictics will be very trustworthy.
   #### Value: Video statistics on trending videos are useful for people who make other content to see what is popular. Its also impornant for people who make money off of the trending content and for the advertisers to see what categories people watch the most.
 
 ## Big Data Questions
@@ -53,7 +53,7 @@ Dataset available at: https://www.kaggle.com/datasnaek/youtube-new
     Chase Smith:
     LastWeekTonight   (31234.0)
 
-  #### Language: We will be using Python for MapReduce implementation.
+  #### Language:
 
     Kevin Hart:
     I will be using Python for MapReduce.
@@ -61,8 +61,8 @@ Dataset available at: https://www.kaggle.com/datasnaek/youtube-new
     Chase Smith:
     I will be using Python for MapReduce.
 
-  #### Charts: We will most likely be using column charts for the visualizations. If there is much variance between values,then a boxplot might be used as well or instead.
-
+  #### Charts: 
+  
     Kevin Hart:
     I will make barchart showing the difference between the top 5 and lowest 5. 
     
