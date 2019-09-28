@@ -24,7 +24,7 @@ Dataset available at: https://cweltonsmith.github.io/big-data-youtube-trends/
 ## Big Data Questions
   #### Kevin: For each channel with trending videos in the US find the total number of views.
   #### Chase: For each channel with trending videos in the US find the total number of dislikes.
-  #### Jacob:
+  #### Jacob: For each channel with trending videos in the US find the total number of likes.
   #### Kaleb: For each channel with trending videos in the US find the max number of comments.
 
 ## Big Data Solutions
@@ -40,6 +40,7 @@ Dataset available at: https://cweltonsmith.github.io/big-data-youtube-trends/
     XpVt6Z1Gjjo 1 YEAR OF VLOGGING -- HOW LOGAN PAUL CHANGED YOUTUBE FOREVER! Logan Paul Vlogs  24  logan paul vlog|logan paul|logan|paul|olympics|logan paul youtube|vlog|daily|comedy|hollywood|parrot|maverick|bird|maverick clothes|diamond play button|logan paul diamond play button|10M subscribers|logan paul 1 year vlogging|1 year vlog|dwarf mamba play button|logan paul history|youtube history|10M|10M plaque|youtube button|diamond button|logang|logang 4 life  5854127 361422  22023 54671 https://i.ytimg.com/vi/XpVt6Z1Gjjo/default.jpg  15.09
     
     Jacob Taylor:
+    d380meD0W0M	17.14.11	I Dare You: GOING BALD!?	nigahiga	24	2017-11-12T18:01:41.000Z	ryan|"higa"|"higatv"|"nigahiga"|"i dare you"|"idy"|"rhpc"|"dares"|"no truth"|"comments"|"comedy"|"funny"|"stupid"|"fail"	2095731	132235	1989	17518	https://i.ytimg.com/vi/d380meD0W0M/default.jpg	False	False	False	I know it's been a while since we did this show, but we're back with what might be the best episode yet!\nLeave your dares in the comment section! \n\nOrder my book how to write good \nhttp://higatv.c..
 
   #### Mapper Output/ Reducer Input:
 
@@ -53,7 +54,7 @@ Dataset available at: https://cweltonsmith.github.io/big-data-youtube-trends/
     Logan Paul Vlogs  54671
     
     Jacob Taylor:
-    
+    nigahiga  132235.0
 
   #### Reducer Output:
 
@@ -68,6 +69,7 @@ Dataset available at: https://cweltonsmith.github.io/big-data-youtube-trends/
     (Note: due to mine not being a ongoing calculation, but rather replacing a value if it is larger, this output will not always remain unchanged from the reducer input. If a video from the same channel has less comments it will simply not show in the output)
     
     Jacob Taylor:
+    nigahiga  132568453.0
 
   #### Language:
 
@@ -81,7 +83,7 @@ Dataset available at: https://cweltonsmith.github.io/big-data-youtube-trends/
     I will be using Python for MapReduce.
     
     Jacob Taylor:
-
+    I will be using Python for MapReduce
   #### Charts: 
   
     Kevin Hart:
@@ -94,3 +96,4 @@ Dataset available at: https://cweltonsmith.github.io/big-data-youtube-trends/
     I will make a column chart showing the top 10 most commented videos and their corresponding channel.
     
     Jacob Taylor:
+    I will make a bar chart that shows the that shows the difference in the amount of likes of the top 20 videos
