@@ -4,15 +4,15 @@
 #### Individuals: Jacob Taylor, Kaleb Odle
 
 ## Links
-Viewable : https://cweltonsmith.github.io/big-data-youtube-trends/
+Published Repo: https://cweltonsmith.github.io/big-data-youtube-trends/
 
 ## Introduction
 #### Youtube is the most widely known and popular video sharing service on the internet. This means there is a plethora of data available to pull from it. This project will deal with finding various "big data elements" (such as count or maximum) from Excel sheet(s) of pulled Youtube data.
 
 ## Data Source
 #### The data source is multiple excel documents that each provide youtube data for a specific country. We will be using the USvideos.csv file as our specific source. The format is structed and the time range is from November 2017 to May 2018. The USvideos.csv file itself is 61 mb.
-
-#### https://www.kaggle.com/datasnaek/youtube-new
+ 
+ https://www.kaggle.com/datasnaek/youtube-new
 
 ## The Challenge
 #### Volume: There are over 40,000 rows with 16 columns for each row making a total of ~640,000 records.
@@ -56,7 +56,7 @@ Viewable : https://cweltonsmith.github.io/big-data-youtube-trends/
     Jacob Taylor:
     nigahiga  132235.0
 
-  #### Example Reducer Output:
+#### Example Reducer Output:
 
     Kevin Hart:
     CaseyNeistat    232745266.0
@@ -119,7 +119,7 @@ Viewable : https://cweltonsmith.github.io/big-data-youtube-trends/
   ![hart_bar_graph](hart-channel-to-views/hart_bar_graph.jpg)
     
     Chase Smith:
-    I made a pie chart for the top 10 disliked trending youtube channels. In order to get the data to excel I converted it to a .csv file and emailed it out of the VM. To get rid of the float value in excel I simply selected the column, choose Data/Text to Column, then select delimited. After that choose other and input .0 to change it from text to float to a whole number.
+    I made a pie chart for the top 10 disliked trending youtube channels. 
 
   ![smith_pie_chart](smith-channel-to-dislikes/smith-chart.jpg)
 
@@ -134,7 +134,7 @@ Viewable : https://cweltonsmith.github.io/big-data-youtube-trends/
   
   Kevin Hart:
   
-  Chase Smith:
+  Chase Smith: I didnt really have any challenges with the mapper/reducer until I realized I needed to delete the inital row in the text file to get them to work correctly. I did run into a problem with formatting the results in the excel doccument. In order to get the data to excel I converted it to a .csv file and emailed it out of the VM. To get rid of the float value in excel I had to select the column, choose Data/Text to Column, then select delimited. After that choose other and input .0 to change it from text to float to a whole number. It took me about two hours from start to finish.
   
   Kaleb Odle: I had challenges with making a reducer that dealt choosing a value vs. creating one overall value (max vs. sum) because I have not seen it before and dealing with the header row. The first challenge was just a little for loop fix, and the second one was just deleting the header row. It took me about an hour to an hour and a half.
   
