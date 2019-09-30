@@ -100,12 +100,11 @@ Dataset available at: https://cweltonsmith.github.io/big-data-youtube-trends/
   
   #### Images:
 
-    Kevin Hart:
-    
-    Mapper:
+  Kevin Hart:
 
-    ![Mapper_output](hart_mapper.PNG)
+  Mapper:
+  ![mapper_output](hart-channel-to-views/hart_mapper.jpg)
+  Reducer:
+  ![reducer_output](hart-channel-to-views/hart_reducer.jpg)
 
-    Reducer:
 
-    ![reducer_output](hart_reducer.PNG)
