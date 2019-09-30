@@ -149,3 +149,13 @@ Kevin Hart:
   ![Project-Mapped](odle-channel-to-max-comments/Project-Mapped.PNG)
   Reducer:
   ![Project-Reduced](odle-channel-to-max-comments/Project-Reduced.PNG)
+  
+  #### Challenges:
+  
+  Kevin Hart:
+  
+  Chase Smith:
+  
+  Kaleb Odle:
+  
+  Jacob Taylor:
