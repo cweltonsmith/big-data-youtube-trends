@@ -109,4 +109,9 @@ Dataset available at: https://cweltonsmith.github.io/big-data-youtube-trends/
   Reducer:
   ![reducer_output](hart-channel-to-views/hart_reducer.jpg)
 
+  Kaleb Odle:
 
+  Mapper:
+  ![Project-Mapped](odle-channel-to-max-comments/Project-Mapped.PNG)
+  Reducer:
+  ![Project-Reduced](odle-channel-to-max-comments/Project-Reduced.PNG)

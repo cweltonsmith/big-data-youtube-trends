@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d9911c5-dacb-438e-b9f4-ddcbac513897" name="Default Changelist" comment="" />
+    <list default="true" id="7d9911c5-dacb-438e-b9f4-ddcbac513897" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +14,7 @@
     <session id="-232078628">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -26,6 +29,16 @@
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="md" value="119" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="119" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
@@ -33,7 +46,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-561" />
+            <state relative-caret-position="365">
+              <caret line="111" column="2" selection-start-line="111" selection-start-column="2" selection-end-line="116" selection-end-column="70" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -41,6 +56,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -72,6 +94,11 @@
             <path>
               <item name="big-data-youtube-trends" type="b2602c69:ProjectViewProjectNode" />
               <item name="big-data-youtube-trends" type="462c0819:PsiDirectoryNode" />
+              <item name="hart-channel-to-views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="big-data-youtube-trends" type="b2602c69:ProjectViewProjectNode" />
+              <item name="big-data-youtube-trends" type="462c0819:PsiDirectoryNode" />
               <item name="odle-channel-to-max-comments" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -82,7 +109,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569878117504" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569878864808" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -116,7 +143,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1565" y="-189" width="1183" height="725" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -151,7 +177,9 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-561" />
+        <state relative-caret-position="365">
+          <caret line="111" column="2" selection-start-line="111" selection-start-column="2" selection-end-line="116" selection-end-column="70" />
+        </state>
       </provider>
     </entry>
   </component>
