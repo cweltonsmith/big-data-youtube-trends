@@ -104,8 +104,8 @@ Dataset available at: https://cweltonsmith.github.io/big-data-youtube-trends/
     
     Mapper:
 
-    ![Mapper_output](hart_mapper.png)
+    ![Mapper_output](hart_mapper.PNG)
 
     Reducer:
 
-    ![reducer_output](hart_reducer.png)
+    ![reducer_output](hart_reducer.PNG)
