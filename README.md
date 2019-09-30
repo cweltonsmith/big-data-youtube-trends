@@ -1,7 +1,7 @@
 # Youtube Trends
 #### Big Data 44517, Section 1
 #### Pair 1: Chase Smith, Kevin Hart
-#### Pair 2: Jacob Taylor, Kaleb Odle
+#### Individuals: Jacob Taylor, Kaleb Odle
 
 ## Links
 Dataset available at: https://cweltonsmith.github.io/big-data-youtube-trends/
