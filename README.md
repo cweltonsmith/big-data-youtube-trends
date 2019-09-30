@@ -4,7 +4,7 @@
 #### Individuals: Jacob Taylor, Kaleb Odle
 
 ## Links
-Dataset available at: https://cweltonsmith.github.io/big-data-youtube-trends/
+Viewable : https://cweltonsmith.github.io/big-data-youtube-trends/
 
 ## Introduction
 #### Youtube is the most widely known and popular video sharing service on the internet. This means there is a plethora of data available to pull from it. This project will deal with finding various "big data elements" (such as count or maximum) from Excel sheet(s) of pulled Youtube data.
@@ -15,17 +15,17 @@ Dataset available at: https://cweltonsmith.github.io/big-data-youtube-trends/
 #### https://www.kaggle.com/datasnaek/youtube-new
 
 ## The Challenge
-  #### Volume: There are over 40,000 rows with 16 columns for each row making a total of ~640,000 records.
-  #### Variety: The data is in a structued excel spreadsheet. Since the data is gathered from youtube, the only think that might be different is the video itself and the rest is constrained.
-  #### Velocity: The data is at rest. Trending videos change everyday depending on what is trending right now.
-  #### Veracity: The data is clean and was gathered from the YouTube API so the statictics will be very trustworthy.
-  #### Value: Video statistics on trending videos are useful for people who make other content to see what is popular. Its also impornant for people who make money off of the trending content and for the advertisers to see what categories people watch the most.
+#### Volume: There are over 40,000 rows with 16 columns for each row making a total of ~640,000 records.
+#### Variety: The data is in a structued excel spreadsheet. Since the data is gathered from youtube, the only think that might be different is the video itself and the rest is constrained.
+#### Velocity: The data is at rest. Trending videos change everyday depending on what is trending right now.
+#### Veracity: The data is clean and was gathered from the YouTube API so the statictics will be very trustworthy.
+#### Value: Video statistics on trending videos are useful for people who make other content to see what is popular. Its also impornant for people who make money off of the trending content and for the advertisers to see what categories people watch the most.
 
 ## Big Data Questions
-  #### Kevin: For each channel with trending videos in the US find the total number of views.
-  #### Chase: For each channel with trending videos in the US find the total number of dislikes.
-  #### Jacob: For each channel with trending videos in the US find the total number of likes.
-  #### Kaleb: For each channel with trending videos in the US find the max number of comments.
+#### Kevin: For each channel with trending videos in the US find the total number of views.
+#### Chase: For each channel with trending videos in the US find the total number of dislikes.
+#### Jacob: For each channel with trending videos in the US find the total number of likes.
+#### Kaleb: For each channel with trending videos in the US find the max number of comments.
 
 ## Big Data Solutions
   #### Mapper Input:
@@ -42,7 +42,7 @@ Dataset available at: https://cweltonsmith.github.io/big-data-youtube-trends/
     Jacob Taylor:
     d380meD0W0M	17.14.11	I Dare You: GOING BALD!?	nigahiga	24	2017-11-12T18:01:41.000Z	ryan|"higa"|"higatv"|"nigahiga"|"i dare you"|"idy"|"rhpc"|"dares"|"no truth"|"comments"|"comedy"|"funny"|"stupid"|"fail"	2095731	132235	1989	17518	https://i.ytimg.com/vi/d380meD0W0M/default.jpg	False	False	False	I know it's been a while since we did this show, but we're back with what might be the best episode yet!\nLeave your dares in the comment section! \n\nOrder my book how to write good \nhttp://higatv.c..
 
-  #### Mapper Output/ Reducer Input:
+  #### Example Mapper Output/ Reducer Input:
 
     Kevin Hart:
     CaseyNeistat   748374.0
@@ -56,7 +56,7 @@ Dataset available at: https://cweltonsmith.github.io/big-data-youtube-trends/
     Jacob Taylor:
     nigahiga  132235.0
 
-  #### Reducer Output:
+  #### Example Reducer Output:
 
     Kevin Hart:
     CaseyNeistat    232745266.0
@@ -74,10 +74,10 @@ Dataset available at: https://cweltonsmith.github.io/big-data-youtube-trends/
   #### Language:
 
     Kevin Hart:
-    I will be using Python for MapReduce.
+    I used Python for MapReduce.
     
     Chase Smith:
-    I will be using Python for MapReduce.
+    I used Python for MapReduce.
     
     Kaleb Odle:
     I will be using Python for MapReduce.
@@ -87,12 +87,14 @@ Dataset available at: https://cweltonsmith.github.io/big-data-youtube-trends/
   #### Charts: 
   
     Kevin Hart:
-    I will make barchart showing the difference between the top 5 and lowest 5. 
+    I made a barchart showing the difference between the top 5 and lowest 5. 
   
   ![hart_bar_graph](hart-channel-to-views/hart_bar_graph.jpg)
     
     Chase Smith:
-    I will make a pie chart for the top 10 trending videos with the most dislikes.
+    I made a pie chart for the top 10 disliked trending youtube channels. In order to get the data to excel I converted it to a .csv file and emailed it out of the VM. To get rid of the float value in excel I simply selected the column, choose Data/Text to Column, then select delimited. After that choose other and input .0 to change it from text to float to a whole number.
+
+  ![smith_pie_chart](smith-channel-to-dislikes/smith-chart.jpg)
     
     Kaleb Odle:
     I will make a column chart showing the top 10 most commented videos and their corresponding channel.
@@ -100,7 +102,7 @@ Dataset available at: https://cweltonsmith.github.io/big-data-youtube-trends/
     Jacob Taylor:
     I will make a bar chart that shows the that shows the difference in the amount of likes of the top 20 videos
   
-  #### Images:
+  #### Output:
 
   Kevin Hart:
 
@@ -108,5 +110,12 @@ Dataset available at: https://cweltonsmith.github.io/big-data-youtube-trends/
   ![mapper_output](hart-channel-to-views/hart_mapper.jpg)
   Reducer:
   ![reducer_output](hart-channel-to-views/hart_reducer.jpg)
+
+  Chase Smith:
+
+  Mapper:
+  ![smith_mapper](smith-channel-to-dislikes/smith-mapper.jpg)
+  ![smith_reducer](smith-channel-to-dislikes/smith-reducer.jpg)
+
 
 
