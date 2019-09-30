@@ -88,6 +88,8 @@ Dataset available at: https://cweltonsmith.github.io/big-data-youtube-trends/
   
     Kevin Hart:
     I will make barchart showing the difference between the top 5 and lowest 5. 
+  
+  ![hart_bar_graph](hart-channel-to-views/hart_bar_graph.jpg)
     
     Chase Smith:
     I will make a pie chart for the top 10 trending videos with the most dislikes.
