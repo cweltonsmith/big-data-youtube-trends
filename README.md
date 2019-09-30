@@ -111,11 +111,41 @@ Viewable : https://cweltonsmith.github.io/big-data-youtube-trends/
   Reducer:
   ![reducer_output](hart-channel-to-views/hart_reducer.jpg)
 
+Kevin Hart:
+    I made a barchart showing the difference between the top 5 and lowest 5. 
+  
+  ![hart_bar_graph](hart-channel-to-views/hart_bar_graph.jpg)
+    
+    Chase Smith:
+    I made a pie chart for the top 10 disliked trending youtube channels. In order to get the data to excel I converted it to a .csv file and emailed it out of the VM. To get rid of the float value in excel I simply selected the column, choose Data/Text to Column, then select delimited. After that choose other and input .0 to change it from text to float to a whole number.
+
+  ![smith_pie_chart](smith-channel-to-dislikes/smith-chart.jpg)
+    
+    Kaleb Odle:
+    I will make a column chart showing the top 10 most commented videos and their corresponding channel.
+    
+    Jacob Taylor:
+    I will make a bar chart that shows the that shows the difference in the amount of likes of the top 20 videos
+  
+  #### Output:
+
+  Kevin Hart:
+
+  Mapper:
+  ![mapper_output](hart-channel-to-views/hart_mapper.jpg)
+  Reducer:
+  ![reducer_output](hart-channel-to-views/hart_reducer.jpg)
+
   Chase Smith:
 
   Mapper:
   ![smith_mapper](smith-channel-to-dislikes/smith-mapper.jpg)
+  Reducer:
   ![smith_reducer](smith-channel-to-dislikes/smith-reducer.jpg)
 
+  Kaleb Odle:
 
-
+  Mapper:
+  ![Project-Mapped](odle-channel-to-max-comments/Project-Mapped.PNG)
+  Reducer:
+  ![Project-Reduced](odle-channel-to-max-comments/Project-Reduced.PNG)
