@@ -156,6 +156,6 @@ Kevin Hart:
   
   Chase Smith:
   
-  Kaleb Odle:
+  Kaleb Odle: I had challenges with making a reducer that dealt choosing a value vs. creating one overall value (max vs. sum) because I have not seen it before and dealing with the header row. The first challenge was just a little for loop fix, and the second one was just deleting the header row. It took me about an hour to an hour and a half.
   
   Jacob Taylor:
