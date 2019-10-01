@@ -4,7 +4,7 @@
 #### Pair 2: Jacob Taylor, Kaleb Odle
 
 ## Links
-Published Repo: https://cweltonsmith.github.io/big-data-youtube-trends/
+Published Repo: [https://cweltonsmith.github.io/big-data-youtube-trends/](https://cweltonsmith.github.io/big-data-youtube-trends/)
 
 ## Introduction
 #### Youtube is the most widely known and popular video sharing service on the internet. This means there is a plethora of data available to pull from it. This project will deal with finding various "big data elements" (such as count or maximum) from Excel sheet(s) of pulled Youtube data.
@@ -12,7 +12,7 @@ Published Repo: https://cweltonsmith.github.io/big-data-youtube-trends/
 ## Data Source
 #### The data source is multiple excel documents that each provide youtube data for a specific country. We will be using the USvideos.csv file as our specific source. The format is structed and the time range is from November 2017 to May 2018. The USvideos.csv file itself is 61 mb.
  
- https://www.kaggle.com/datasnaek/youtube-new
+ Data Set: [https://www.kaggle.com/datasnaek/youtube-new](https://www.kaggle.com/datasnaek/youtube-new)
 
 ## The Challenge
 
@@ -99,24 +99,29 @@ Published Repo: https://cweltonsmith.github.io/big-data-youtube-trends/
   ![reducer_output](hart-channel-to-views/hart_reducer.jpg)
 
 
+  
   Chase Smith:
   Mapper:
   ![smith_mapper](smith-channel-to-dislikes/smith-mapper.jpg)
   Reducer:
   ![smith_reducer](smith-channel-to-dislikes/smith-reducer.jpg)
-
-
+  
+    
+  
   Kaleb Odle:
   Mapper:
   ![Project-Mapped](odle-channel-to-max-comments/Project-Mapped.PNG)
   Reducer:
   ![Project-Reduced](odle-channel-to-max-comments/Project-Reduced.PNG)
   
+    
+
+  
   Jacob Taylor:
-  Mapper:
+  Mapper:  
   ![taylor_mapper](taylor-channel-to-likes/mapper.PNG)
   Reducer:
-    ![taylor_mapper](taylor-channel-to-likes/reducer.PNG)
+  ![taylor_mapper](taylor-channel-to-likes/reducer.PNG)
 
   
   
@@ -148,7 +153,7 @@ Published Repo: https://cweltonsmith.github.io/big-data-youtube-trends/
   
 #### Challenges:
   
-  Kevin Hart:
+  Kevin Hart: I did not face very many challenges throughout this project. The hardest part of the project was making the second job that would sort the channels by total number of views. That turned into another MapReduce job that I chained to the output of the original mapper and reducer. In total, this project took about 4 hours finish, complete with editting the README, making the mapper and reducer, and the second MapReduce job. 
   
   Chase Smith: I didnt really have any challenges with the mapper/reducer until I realized I needed to delete the inital row in the text file to get them to work correctly. I did run into a problem with formatting the results in the excel doccument. In order to get the data to excel I converted it to a .csv file and emailed it out of the VM. To get rid of the float value in excel I had to select the column, choose Data/Text to Column, then select delimited. After that choose other and input .0 to change it from text to float to a whole number. It took me about two hours from start to finish.
   
