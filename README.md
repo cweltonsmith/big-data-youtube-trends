@@ -26,6 +26,23 @@ Published Repo: [https://cweltonsmith.github.io/big-data-youtube-trends/](https:
 
 #### Value: Video statistics on trending videos are useful for people who make other content to see what is popular. Its also impornant for people who make money off of the trending content and for the advertisers to see what categories people watch the most.
 
+## Setup/Execution
+
+    To run hadoop we used a udacityVM that came pre installed with hadoop as well as other MapReduce applications. We then emailed our data to ourselves and downloaded it in our VM. Here are the steps we followed.
+    - cd udacity_training/code
+      This is where you'll put your Mapper and Reducer programs.
+    - Optionally you can put your data in the udacity_training/data folder or just leave it in your Downloads.
+    - hadoop fs -put filename.txt
+    - hadoop fs -mkdir newdirinput
+    - hadoop fs -put finename.txt newdirinput
+      This puts your data into a new directory that only holds your data
+    - cd udacity_training/code
+      Cd into the code directory just to be sure
+    - hs mapper.py reducer.py newdirinput newdiroutput 
+      This single command will run the data through the mapper then the reudcer and then output it to the newdiroutput
+    - hadoop fs -cat newdiroutput/part-00000 | less
+      This command allows you to view your output. You can optionally download it from firefox local host 50070.
+
 ## Big Data Questions
 #### Kevin: For each channel with trending videos in the US find the total number of views.
 #### Chase: For each channel with trending videos in the US find the total number of dislikes.
@@ -85,12 +102,12 @@ Published Repo: [https://cweltonsmith.github.io/big-data-youtube-trends/](https:
     I used Python for MapReduce.
     
     Kaleb Odle:
-    I will be using Python for MapReduce.
+    I used Python for MapReduce.
     
     Jacob Taylor:
-    I will be using Python for MapReduce
+    I used Python for MapReduce
 
-#### Output:
+#### Actual Output:
 
   Kevin Hart:
   Mapper:
@@ -128,25 +145,23 @@ Published Repo: [https://cweltonsmith.github.io/big-data-youtube-trends/](https:
 #### Results/Charts:
 
 
-    Kevin Hart:
-    I made a barchart showing the difference between the top 5 and lowest 5. 
+Kevin Hart:
+I made a barchart showing the top 10 most viewed channels. 
   
   ![hart_bar_graph](hart-channel-to-views/hart_bar_graph.jpg)
     
-    Chase Smith:
-    I made a pie chart for the top 10 disliked trending youtube channels. 
+Chase Smith:
+I made a pie chart for the top 10 disliked trending youtube channels. It was interesting to see that there were quite a few trending videos that had no dislkes whatsoever.
 
   ![smith_pie_chart](smith-channel-to-dislikes/smith-chart.jpg)
 
-    Kaleb Odle:
-    I column chart comparing the top 10 most commented (max comments) channels.
+Kaleb Odle:
+I made a column chart comparing the top 10 most commented (max comments) channels. I found this really interesting because of the VERY large gap between the most commented and the second one. ibighit is a Youtube channel ran by Big Hit, a South Korean Entertainment company. This particular highly-commented video was a BTS music video. I would say that this shows these fans are way more engaged with this music group, but this is very significant.
     
   ![Top10](odle-channel-to-max-comments/Top10.PNG)
   
-    I found this really interesting because of the VERY large gap between the most commented and the second one. ibighit is a Youtube channel ran by Big Hit, a South Korean Entertainment company. This particular highly-commented video was a BTS music video. I would say that this shows these fans are way more engaged with this music group, but this is very significant.
-    
-    Jacob Taylor:
-    I will make a bar chart that shows the that shows the difference in the amount of likes of the top 10 videos
+Jacob Taylor:
+I made a bar chart that shows the that shows the difference in the amount of likes of the top 10 videos
 
   ![taylor_bar_chart](taylor-channel-to-likes/Channel_Likes.PNG)
 
@@ -159,6 +174,6 @@ Published Repo: [https://cweltonsmith.github.io/big-data-youtube-trends/](https:
   
   Chase Smith: I didnt really have any challenges with the mapper/reducer until I realized I needed to delete the inital row in the text file to get them to work correctly. I did run into a problem with formatting the results in the excel doccument. In order to get the data to excel I converted it to a .csv file and emailed it out of the VM. To get rid of the float value in excel I had to select the column, choose Data/Text to Column, then select delimited. After that choose other and input .0 to change it from text to float to a whole number. It took me about two hours from start to finish.
   
-  Kaleb Odle: I had challenges with making a reducer that dealt choosing a value vs. creating one overall value (max vs. sum) because I have not seen it before and dealing with the header row. The first challenge was just a little for loop fix, and the second one was just deleting the header row. It took me about an hour to an hour and a half.
+  Kaleb Odle: I had challenges with making a reducer that dealt choosing a value vs. creating one overall value (max vs. sum) because I have not seen it before, dealing with the header row, and splitting out my csv values from the reducer output. The first challenge was just a little for loop fix and the second one was just deleting the header row. The last challenge was just seperating the channel title from the video comments in the same excel column as a csv. Text splitting didn't work, but Excel's Text-to-Columns ability worked perfectly for recognizing the video comments as numbers. It took me about an hour to an hour and a half.
   
   Jacob Taylor: I had some challenges making the mapper that correctly mapped out all the different columns and a problem with the reducer with getting the right value. I also had a problem getting the right file to run through the mapper and reducer. After a while of fiddling with the .py files I made it so that it would check if they were numbers and then it started to work. For the file I just was forgetting to convert the .csv file to a .txt file.
