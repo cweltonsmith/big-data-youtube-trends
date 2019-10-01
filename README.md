@@ -163,11 +163,13 @@ Published Repo: [https://cweltonsmith.github.io/big-data-youtube-trends/](https:
     
     Jacob Taylor:
     I will make a bar chart that shows the that shows the difference in the amount of likes of the top 10 videos
+
+  ![taylor_bar_chart](taylor-channel-to-likes/Channel_Likes.PNG)
   
   
 #### Challenges:
   
-  Kevin Hart:
+  Kevin Hart: I did not face very many challenges throughout this project. The hardest part of the project was making the second job that would sort the channels by total number of views. That turned into another MapReduce job that I chained to the output of the original mapper and reducer. In total, this project took about 4 hours finish, complete with editting the README, making the mapper and reducer, and the second MapReduce job. 
   
   Chase Smith: I didnt really have any challenges with the mapper/reducer until I realized I needed to delete the inital row in the text file to get them to work correctly. I did run into a problem with formatting the results in the excel doccument. In order to get the data to excel I converted it to a .csv file and emailed it out of the VM. To get rid of the float value in excel I had to select the column, choose Data/Text to Column, then select delimited. After that choose other and input .0 to change it from text to float to a whole number. It took me about two hours from start to finish.
   
