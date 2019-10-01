@@ -129,7 +129,9 @@ Published Repo: https://cweltonsmith.github.io/big-data-youtube-trends/
   ![smith_pie_chart](smith-channel-to-dislikes/smith-chart.jpg)
 
     Kaleb Odle:
-    I will make a column chart showing the top 10 most commented videos and their corresponding channel.
+    I column chart comparing the top 10 most commented (max comments) channels.
+    
+    !
     
     Jacob Taylor:
     I will make a bar chart that shows the that shows the difference in the amount of likes of the top 20 videos
