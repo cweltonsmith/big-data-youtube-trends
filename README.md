@@ -4,7 +4,7 @@
 #### Pair 2: Jacob Taylor, Kaleb Odle
 
 ## Links
-Published Repo: https://cweltonsmith.github.io/big-data-youtube-trends/
+Published Repo: [https://cweltonsmith.github.io/big-data-youtube-trends/](https://cweltonsmith.github.io/big-data-youtube-trends/)
 
 ## Introduction
 #### Youtube is the most widely known and popular video sharing service on the internet. This means there is a plethora of data available to pull from it. This project will deal with finding various "big data elements" (such as count or maximum) from Excel sheet(s) of pulled Youtube data.
@@ -12,7 +12,7 @@ Published Repo: https://cweltonsmith.github.io/big-data-youtube-trends/
 ## Data Source
 #### The data source is multiple excel documents that each provide youtube data for a specific country. We will be using the USvideos.csv file as our specific source. The format is structed and the time range is from November 2017 to May 2018. The USvideos.csv file itself is 61 mb.
  
- https://www.kaggle.com/datasnaek/youtube-new
+ Data Set: [https://www.kaggle.com/datasnaek/youtube-new](https://www.kaggle.com/datasnaek/youtube-new)
 
 ## The Challenge
 
