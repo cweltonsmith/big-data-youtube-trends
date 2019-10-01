@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d9911c5-dacb-438e-b9f4-ddcbac513897" name="Default Changelist" comment="" />
+    <list default="true" id="7d9911c5-dacb-438e-b9f4-ddcbac513897" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +32,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="521" />
+          <entry key="md" value="1134" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="402" />
+          <entry key="Markdown" value="1015" />
           <entry key="PLAIN_TEXT" value="119" />
         </counts>
       </usages-collector>
@@ -47,8 +49,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="442">
-                <caret line="138" column="345" selection-start-line="138" selection-start-column="345" selection-end-line="138" selection-end-column="345" />
+              <first_editor relative-caret-position="276">
+                <caret line="126" column="74" lean-forward="true" selection-start-line="126" selection-start-column="74" selection-end-line="126" selection-end-column="74" />
               </first_editor>
               <second_editor />
             </state>
@@ -145,10 +147,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="143" y="50" width="1183" height="725" extended-state="0" />
+    <frame x="15" y="15" width="1337" height="741" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2537845" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22317933" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -182,8 +184,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="442">
-            <caret line="138" column="345" selection-start-line="138" selection-start-column="345" selection-end-line="138" selection-end-column="345" />
+          <first_editor relative-caret-position="276">
+            <caret line="126" column="74" lean-forward="true" selection-start-line="126" selection-start-column="74" selection-end-line="126" selection-end-column="74" />
           </first_editor>
           <second_editor />
         </state>

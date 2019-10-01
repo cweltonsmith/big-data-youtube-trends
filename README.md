@@ -131,7 +131,9 @@ Published Repo: https://cweltonsmith.github.io/big-data-youtube-trends/
     Kaleb Odle:
     I column chart comparing the top 10 most commented (max comments) channels.
     
-    !
+  ![Top10](odle-channel-to-max-comments/Top10.PNG)
+  
+    I found this really interesting because of the VERY large gap between the most commented and the second one. ibighit is a Youtube channel ran by Big Hit, a South Korean Entertainment company. This particular highly-commented video was a BTS music video. I would say that this shows these fans are way more engaged with this music group, but this is very significant.
     
     Jacob Taylor:
     I will make a bar chart that shows the that shows the difference in the amount of likes of the top 20 videos
