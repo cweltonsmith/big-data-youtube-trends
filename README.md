@@ -165,7 +165,7 @@ I made a bar chart that shows the that shows the difference in the amount of lik
 
   ![taylor_bar_chart](taylor-channel-to-likes/Channel_Likes.PNG)
 
-    After discussions with Dr. Case and thinking back on the project. I changed it to more accurately reflect the bar graph proposal I originally wanted. Because of time constraints and prior commitments the previous graph I made was not accurate. This should now accurately represent what I am trying to show.
+After discussions with Dr. Case and thinking back on the project. I changed it to more accurately reflect the bar graph proposal I originally wanted. Because of time constraints and prior commitments the previous graph I made was not accurate. This should now accurately represent what I am trying to show.
   
   
 #### Challenges:
