@@ -26,6 +26,23 @@ Published Repo: [https://cweltonsmith.github.io/big-data-youtube-trends/](https:
 
 #### Value: Video statistics on trending videos are useful for people who make other content to see what is popular. Its also impornant for people who make money off of the trending content and for the advertisers to see what categories people watch the most.
 
+## Setup/Execution
+
+    To run hadoop we used a udacityVM that came pre installed with hadoop as well as other MapReduce applications. We then emailed our data to ourselves and downloaded it in our VM. Here are the steps we followed.
+    - cd udacity_training/code
+      This is where you'll put your Mapper and Reducer programs.
+    - Optionally you can put your data in the udacity_training/data folder or just leave it in your Downloads.
+    - hadoop fs -put filename.txt
+    - hadoop fs -mkdir newdirinput
+    - hadoop fs -put finename.txt newdirinput
+      This puts your data into a new directory that only holds your data
+    - cd udacity_training/code
+      Cd into the code directory just to be sure
+    - hs mapper.py reducer.py newdirinput newdiroutput 
+      This single command will run the data through the mapper then the reudcer and then output it to the newdiroutput
+    - hadoop fs -cat newdiroutput/part-00000 | less
+      This command allows you to view your output. You can optionally download it from firefox local host 50070.
+
 ## Big Data Questions
 #### Kevin: For each channel with trending videos in the US find the total number of views.
 #### Chase: For each channel with trending videos in the US find the total number of dislikes.
@@ -134,16 +151,15 @@ Published Repo: [https://cweltonsmith.github.io/big-data-youtube-trends/](https:
   ![hart_bar_graph](hart-channel-to-views/hart_bar_graph.jpg)
     
     Chase Smith:
-    I made a pie chart for the top 10 disliked trending youtube channels. 
+    I made a pie chart for the top 10 disliked trending youtube channels. It was interesting to see that there were quite a few trending videos that had no dislkes whatsoever.
 
   ![smith_pie_chart](smith-channel-to-dislikes/smith-chart.jpg)
 
     Kaleb Odle:
-    I column chart comparing the top 10 most commented (max comments) channels.
+    I made a column chart comparing the top 10 most commented (max comments) channels. I found this really interesting because of the VERY large gap between the most commented and the second one. ibighit is a Youtube channel ran by Big Hit, a South Korean Entertainment company. This particular highly-commented video was a BTS music video. I would say that this shows these fans are way more engaged with this music group, but this is very significant.
     
   ![Top10](odle-channel-to-max-comments/Top10.PNG)
   
-    I found this really interesting because of the VERY large gap between the most commented and the second one. ibighit is a Youtube channel ran by Big Hit, a South Korean Entertainment company. This particular highly-commented video was a BTS music video. I would say that this shows these fans are way more engaged with this music group, but this is very significant.
     
     Jacob Taylor:
     I will make a bar chart that shows the that shows the difference in the amount of likes of the top 10 videos
