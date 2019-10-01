@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d9911c5-dacb-438e-b9f4-ddcbac513897" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="7d9911c5-dacb-438e-b9f4-ddcbac513897" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +48,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="442">
-                <caret line="158" column="345" selection-start-line="158" selection-start-column="345" selection-end-line="158" selection-end-column="345" />
+                <caret line="138" column="345" selection-start-line="138" selection-start-column="345" selection-end-line="138" selection-end-column="345" />
               </first_editor>
               <second_editor />
             </state>
@@ -76,9 +74,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1565" />
-    <option name="y" value="-189" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="143" />
+    <option name="y" value="50" />
     <option name="width" value="1183" />
     <option name="height" value="725" />
   </component>
@@ -147,7 +145,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1565" y="-189" width="1183" height="725" extended-state="0" />
+    <frame x="143" y="50" width="1183" height="725" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2537845" />
@@ -185,7 +183,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="442">
-            <caret line="158" column="345" selection-start-line="158" selection-start-column="345" selection-end-line="158" selection-end-column="345" />
+            <caret line="138" column="345" selection-start-line="138" selection-start-column="345" selection-end-line="138" selection-end-column="345" />
           </first_editor>
           <second_editor />
         </state>
