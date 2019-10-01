@@ -141,7 +141,7 @@ Published Repo: https://cweltonsmith.github.io/big-data-youtube-trends/
     I found this really interesting because of the VERY large gap between the most commented and the second one. ibighit is a Youtube channel ran by Big Hit, a South Korean Entertainment company. This particular highly-commented video was a BTS music video. I would say that this shows these fans are way more engaged with this music group, but this is very significant.
     
     Jacob Taylor:
-    I will make a bar chart that shows the that shows the difference in the amount of likes of the top 20 videos
+    I will make a bar chart that shows the that shows the difference in the amount of likes of the top 10 videos
   
   
 #### Challenges:
@@ -152,4 +152,4 @@ Published Repo: https://cweltonsmith.github.io/big-data-youtube-trends/
   
   Kaleb Odle: I had challenges with making a reducer that dealt choosing a value vs. creating one overall value (max vs. sum) because I have not seen it before and dealing with the header row. The first challenge was just a little for loop fix, and the second one was just deleting the header row. It took me about an hour to an hour and a half.
   
-  Jacob Taylor:
+  Jacob Taylor: I had some challenges making the mapper that correctly mapped out all the different columns and a problem with the reducer with getting the right value. I also had a problem getting the right file to run through the mapper and reducer. After a while of fiddling with the .py files I made it so that it would check if they were numbers and then it started to work. For the file I just was forgetting to convert the .csv file to a .txt file.
