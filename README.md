@@ -102,10 +102,10 @@ Published Repo: [https://cweltonsmith.github.io/big-data-youtube-trends/](https:
     I used Python for MapReduce.
     
     Kaleb Odle:
-    I will be using Python for MapReduce.
+    I used Python for MapReduce.
     
     Jacob Taylor:
-    I will be using Python for MapReduce
+    I used Python for MapReduce
 
 #### Actual Output:
 
