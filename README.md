@@ -1,7 +1,7 @@
 # Youtube Trends
 #### Big Data 44517, Section 1
 #### Pair 1: Chase Smith, Kevin Hart
-#### Individuals: Jacob Taylor, Kaleb Odle
+#### Pair 2: Jacob Taylor, Kaleb Odle
 
 ## Links
 Published Repo: https://cweltonsmith.github.io/big-data-youtube-trends/
@@ -15,10 +15,15 @@ Published Repo: https://cweltonsmith.github.io/big-data-youtube-trends/
  https://www.kaggle.com/datasnaek/youtube-new
 
 ## The Challenge
+
 #### Volume: There are over 40,000 rows with 16 columns for each row making a total of ~640,000 records.
+
 #### Variety: The data is in a structued excel spreadsheet. Since the data is gathered from youtube, the only think that might be different is the video itself and the rest is constrained.
+
 #### Velocity: The data is at rest. Trending videos change everyday depending on what is trending right now.
+
 #### Veracity: The data is clean and was gathered from the YouTube API so the statictics will be very trustworthy.
+
 #### Value: Video statistics on trending videos are useful for people who make other content to see what is popular. Its also impornant for people who make money off of the trending content and for the advertisers to see what categories people watch the most.
 
 ## Big Data Questions
