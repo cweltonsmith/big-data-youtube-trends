@@ -107,7 +107,7 @@ Published Repo: [https://cweltonsmith.github.io/big-data-youtube-trends/](https:
     Jacob Taylor:
     I will be using Python for MapReduce
 
-#### Output:
+#### Actual Output:
 
   Kevin Hart:
   Mapper:
@@ -162,7 +162,7 @@ Published Repo: [https://cweltonsmith.github.io/big-data-youtube-trends/](https:
   
     
     Jacob Taylor:
-    I will make a bar chart that shows the that shows the difference in the amount of likes of the top 10 videos
+    I made a bar chart that shows the that shows the difference in the amount of likes of the top 10 videos
 
   ![taylor_bar_chart](taylor-channel-to-likes/Channel_Likes.PNG)
   
