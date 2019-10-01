@@ -108,6 +108,11 @@ Published Repo: https://cweltonsmith.github.io/big-data-youtube-trends/
   ![Project-Reduced](odle-channel-to-max-comments/Project-Reduced.PNG)
   
   Jacob Taylor:
+  Mapper:
+  ![taylor_mapper](taylor-channel-to-likes/mapper.PNG)
+  Reducer:
+    ![taylor_mapper](taylor-channel-to-likes/reducer.PNG)
+
   
   
 #### Results/Charts:
