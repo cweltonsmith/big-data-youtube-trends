@@ -1,7 +1,7 @@
 # Youtube Trends
 #### Big Data 44517, Section 1
 #### Pair 1: Chase Smith, Kevin Hart
-#### Individuals: Jacob Taylor, Kaleb Odle
+#### Pair 2: Jacob Taylor, Kaleb Odle
 
 ## Links
 Published Repo: https://cweltonsmith.github.io/big-data-youtube-trends/
@@ -15,10 +15,15 @@ Published Repo: https://cweltonsmith.github.io/big-data-youtube-trends/
  https://www.kaggle.com/datasnaek/youtube-new
 
 ## The Challenge
+
 #### Volume: There are over 40,000 rows with 16 columns for each row making a total of ~640,000 records.
+
 #### Variety: The data is in a structued excel spreadsheet. Since the data is gathered from youtube, the only think that might be different is the video itself and the rest is constrained.
+
 #### Velocity: The data is at rest. Trending videos change everyday depending on what is trending right now.
+
 #### Veracity: The data is clean and was gathered from the YouTube API so the statictics will be very trustworthy.
+
 #### Value: Video statistics on trending videos are useful for people who make other content to see what is popular. Its also impornant for people who make money off of the trending content and for the advertisers to see what categories people watch the most.
 
 ## Big Data Questions
@@ -129,7 +134,11 @@ Published Repo: https://cweltonsmith.github.io/big-data-youtube-trends/
   ![smith_pie_chart](smith-channel-to-dislikes/smith-chart.jpg)
 
     Kaleb Odle:
-    I will make a column chart showing the top 10 most commented videos and their corresponding channel.
+    I column chart comparing the top 10 most commented (max comments) channels.
+    
+  ![Top10](odle-channel-to-max-comments/Top10.PNG)
+  
+    I found this really interesting because of the VERY large gap between the most commented and the second one. ibighit is a Youtube channel ran by Big Hit, a South Korean Entertainment company. This particular highly-commented video was a BTS music video. I would say that this shows these fans are way more engaged with this music group, but this is very significant.
     
     Jacob Taylor:
     I will make a bar chart that shows the that shows the difference in the amount of likes of the top 20 videos
