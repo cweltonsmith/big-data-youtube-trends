@@ -99,24 +99,29 @@ Published Repo: https://cweltonsmith.github.io/big-data-youtube-trends/
   ![reducer_output](hart-channel-to-views/hart_reducer.jpg)
 
 
+  
   Chase Smith:
   Mapper:
   ![smith_mapper](smith-channel-to-dislikes/smith-mapper.jpg)
   Reducer:
   ![smith_reducer](smith-channel-to-dislikes/smith-reducer.jpg)
-
-
+  
+    
+  
   Kaleb Odle:
   Mapper:
   ![Project-Mapped](odle-channel-to-max-comments/Project-Mapped.PNG)
   Reducer:
   ![Project-Reduced](odle-channel-to-max-comments/Project-Reduced.PNG)
   
+    
+
+  
   Jacob Taylor:
-  Mapper:
+  Mapper:  
   ![taylor_mapper](taylor-channel-to-likes/mapper.PNG)
   Reducer:
-    ![taylor_mapper](taylor-channel-to-likes/reducer.PNG)
+  ![taylor_mapper](taylor-channel-to-likes/reducer.PNG)
 
   
   
