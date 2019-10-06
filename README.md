@@ -151,7 +151,7 @@ I made a barchart showing the top 10 most viewed channels.
   ![hart_bar_graph](hart-channel-to-views/hart_bar_graph.jpg)
     
 Chase Smith:
-I made a pie chart for the top 10 disliked trending youtube channels. It was interesting to see that there were quite a few trending videos that had no dislkes whatsoever.
+I made a pie chart for the top 10 disliked trending youtube channels. It was interesting to see that there were quite a few trending videos that had no dislkes whatsoever. It seems the youtube videos with the most likes and the most dislikes are music videos. I think that if you compare music videos to actually channels that submit every day the actualy channels would over all have the most dislikes/likes. However since were just focusing on the trending videos Its easy to see why music videos would be at the top.
 
   ![smith_pie_chart](smith-channel-to-dislikes/smith-chart.jpg)
 
